@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/copy"
+        android:title="Copy"
+        android:icon="@mipmap/copy_menu"/>
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@mipmap/search_menu"/>
+    <item
+        android:id="@+id/add"
+        android:title="Add"
+        android:icon="@mipmap/add_menu"/>
+    <item
+        android:id="@+id/notification"
+        android:title="Notification"
+        android:icon="@mipmap/notification_menu"/>
+    <item
+        android:id="@+id/message"
+        android:title="Message"
+        android:icon="@mipmap/message_menu"/>
+</menu>

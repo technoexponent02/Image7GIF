@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+        <com.unstoppable.submitbuttonview.SubmitButton
+            android:id="@+id/sbtn_loading"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            app:buttonText="Follow"
+            app:buttonTextSize="15dp"
+            app:buttonColor="@color/colorPrimary"
+            app:succeedColor="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="25dp"/>
+
+
+    <TextView
+        android:id="@+id/txtPhotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Photos"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/imvOne"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/imvTwo"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/imvThree"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/imvFour"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>
